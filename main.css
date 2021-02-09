@@ -19,16 +19,19 @@ body{
 .header{
     text-align: center;
     padding: 2em;
+    background: radial-gradient(#d53d2f, #e65f53);
+    box-shadow: inset 2px -2px 16px rgb(0 0 0 / 20%);
 }
 
 .header h1{
     margin-bottom: 15px;
     font-size: 3.5rem;
+    color: white;
 }
 
 .slideshow{
     flex: 1;
-    background-color: rgb(231, 231, 231);
+    background: radial-gradient(#C27F79, #e65f53);
     position: relative;
     overflow: hidden;
 }
